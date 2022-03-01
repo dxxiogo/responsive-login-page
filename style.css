@@ -115,7 +115,7 @@ button > img{
     outline: none;
     padding-left: 3px;
 }
-.input-content:hover{
+.input-content:focus{
     border: .5px solid var(--color2);
     box-shadow: 0 0 3px var(--color2);
 }
