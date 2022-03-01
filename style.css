@@ -22,7 +22,6 @@ body{
     height: 100%;
     max-width: 1400px;
     min-width: 200px;
-    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 200px;
@@ -34,7 +33,7 @@ body{
     height: 300px;
     margin-left: 50px ;
     position: relative;
-    top: 25%;
+    top: 150px;
     color: white;
 }
 .box-content-text > h1{
