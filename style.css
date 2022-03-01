@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+:root{
+    --color1: #124559;
+    --color2: #40BCD8;
+    --color3: #E3170A;
+}
+body{
+    background: var(--color1) url(imagens/wallpaper.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 110vh;
+    max-width: 1400px;
+    min-width: 200px;
+
+}
+.container{
+    height: 100%;
+    max-width: 1400px;
+    min-width: 200px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    background-color:  #40bcd838;
+}
+.box-content-text{
+    max-width: 500px;
+    min-width: 150px;
+    height: 300px;
+    margin-left: 50px ;
+    position: relative;
+    top: 25%;
+    color: white;
+}
+.box-content-text > h1{
+    font-size: 2.8em;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.398);
+}
+.box-content-text > p{
+    font-size: 1.2em;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.583);
+}
+.container-first-content{
+    margin: 10px 10px 20px 10px;
+    max-width: 500px;
+    min-width: 200px;
+    background: white;
+    height: 520px;
+    border-radius: 5px;
+    padding-top: 25px;
+}
+a{
+    color: var(--color2);
+}
+.box-first-text > h1, p{
+    padding: 5px;
+}
+.box-first-text > p{
+    padding-bottom: 15px;
+    font-size: 0.8em;
+}
+.box-first-text, .box-second-button{
+    margin: 10px 30px 10px 30px  ;
+}
+.box-second-button{
+    max-width: 450px;
+    min-width: 150px;
+    display: flex;
+    gap: 80px;
+    padding-bottom: 20px;
+    border-bottom: .5px solid rgba(128, 128, 128, 0.481);
+}
+button{
+    display: flex;
+    align-items: center;  
+    gap: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px; 
+    height: 45px;
+    cursor: pointer;
+}
+ #facebook{
+    background-color: #039BE5;
+    color: white;
+    }
+button > img{
+    height: 20px;
+}
+.box-third-input{
+    padding: 10px;
+    max-width: 400px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 30px 30px;
+}
+ .container-second-content{
+        background: lightsalmon;
+    }
+.label-content{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 3px;
+    font-size: .7em;
+}
+.input-content{
+    height: 30px;
+    max-width: 500px;
+    min-width: 100px;
+    border: .5px solid rgba(128, 128, 128, 0.481);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 3px;
+}
+.input-content:hover{
+    border: .5px solid var(--color2);
+    box-shadow: 0 0 3px var(--color2);
+}
+#senha{
+    margin-top: 15px ;
+}
+.terms-input{
+    max-width: 425px;
+    min-width: 50px;
+    font-size: 0.7em;
+    padding: 8px 0px 20px 2px ;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#checkbox{
+    height: 10px;
+}
+.button-input{
+    height: 40px;
+    max-width: 425px;
+    min-width: 50px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    background: var(--color1);
+    color: white;
+}
+.button-input:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.172);
+    cursor: pointer;
+}
+.criacao{
+    font-size: 0.8em;
+    text-align: center;
+    margin: 80px;
+}
