@@ -19,13 +19,11 @@ body{
 
 }
 .container{
-    height: 100%;
-    max-width: 1400px;
-    min-width: 200px;
+    background-color:  #40bcd838;
+    height: 110vh;
     display: flex;
     flex-wrap: wrap;
     gap: 200px;
-    background-color:  #40bcd838;
 }
 .box-content-text{
     max-width: 500px;
@@ -38,14 +36,14 @@ body{
 }
 .box-content-text > h1{
     font-size: 2.8em;
-    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.398);
+    text-shadow: 3px 1px 1px #40bcd891;
 }
 .box-content-text > p{
     font-size: 1.2em;
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.583);
 }
 .container-first-content{
-    margin: 10px 10px 20px 10px;
+    margin: 20px 10px 20px 10px;
     max-width: 500px;
     min-width: 200px;
     background: white;
